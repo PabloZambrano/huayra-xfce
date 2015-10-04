@@ -1,0 +1,75 @@
+acpi 
+acpi-support 
+acpi-support-base 
+alsa-base alsa-utils 
+apt-xapian-index bash-completion
+at-spi2-core
+colord 
+cowsay 
+cpufrequtils 
+djmount djvulibre-bin 
+dnsmasq-base dnsutils 
+dosfstools
+e2fsprogs
+eject
+extlinux
+ffmpegthumbnailer 
+flashplugin-nonfree
+foomatic-db 
+foomatic-filters 
+git 
+gnucap 
+gparted 
+gstreamer0.10-fluendo-mp3 
+gstreamer0.10-plugins-bad 
+gstreamer0.10-plugins-good 
+gstreamer0.10-plugins-ugly 
+gstreamer0.10-pulseaudio 
+gucharmap
+hwinfo
+iceowl-extension 
+less libgl1-mesa-dri
+libnss-mdns 
+lm-sensors
+locales
+lshw manpages-es 
+manpages-es-extra 
+mawk 
+mc 
+mdns-scan 
+menu 
+menu-xdg 
+mobile-broadband-provider-info 
+modemmanager
+network-manager-gnome 
+network-manager-openvpn-gnome 
+ntfs-3g 
+ntpdate 
+os-prober 
+packagekit 
+pciutils 
+pepperflashplugin-nonfree 
+pulseaudio 
+pulseaudio-utils 
+python 
+python-tk 
+python-webkit
+rar 
+rfkill
+sshfs 
+sudo 
+system-config-printer 
+ttf-aenigma 
+unrar
+unzip 
+usb-modeswitch 
+vim 
+wireless-tools 
+xchat 
+xdg-user-dirs
+xdg-user-dirs-gtk 
+xdg-utils 
+xserver-xorg 
+xterm 
+youtube-dl 
+zip

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Huayra-mu
+Comment=Un generador de proyectos para huayra
+Exec=xfce4-terminal -e "bash -c \"/usr/bin/mu; exec bash\""
+Type=Application
+Icon=mu
+Categories=GNOME;GTK;Huayra;

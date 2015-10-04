@@ -1,0 +1,13 @@
+{
+    "homepage": "http://www.conectarigualdad.gob.ar", 
+    "distribution": {}, 
+    "extensions": {
+        "theme": {
+            "use_system": true
+        }
+    }, 
+    "homepage_is_newtabpage": false, 
+    "browser": {
+        "custom_chrome_frame": true
+    }
+}

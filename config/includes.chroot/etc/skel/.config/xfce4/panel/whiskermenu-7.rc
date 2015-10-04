@@ -1,0 +1,56 @@
+favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-web-browser.desktop
+recent=exo-terminal-emulator.desktop,exo-file-manager.desktop,xfce-ui-settings.desktop,exo-web-browser.desktop,xfce-settings-manager.desktop
+button-title=menu
+button-icon=start-here
+button-single-row=true
+show-button-title=false
+show-button-icon=true
+launcher-show-name=true
+launcher-show-description=false
+item-icon-size=2
+hover-switch-category=false
+category-icon-size=1
+load-hierarchy=false
+favorites-in-recent=true
+display-recent-default=false
+position-search-alternate=true
+position-commands-alternate=false
+position-categories-alternate=false
+menu-width=453
+menu-height=518
+command-settings=xfce4-settings-manager
+show-command-settings=true
+command-lockscreen=xflock4
+show-command-lockscreen=true
+command-switchuser=/usr/bin/gdmflexiserver
+show-command-switchuser=true
+command-logout=xfce4-session-logout
+show-command-logout=true
+command-menueditor=alacarte
+show-command-menueditor=true
+search-actions=4
+
+[action0]
+name=Páginas del manual
+pattern=#
+command=exo-open --launch TerminalEmulator man %s
+regex=false
+
+[action1]
+name=Wikipedia
+pattern=!w
+command=exo-open --launch WebBrowser http://en.wikipedia.org/wiki/%u
+regex=false
+
+[action2]
+name=Abrir en la terminal
+pattern=!
+command=exo-open --launch TerminalEmulator %s
+regex=false
+
+[action3]
+name=Abrir una dirección URI
+pattern=^(file|http|https):\\/\\/(.*)$
+command=exo-open \\0
+regex=true
+
