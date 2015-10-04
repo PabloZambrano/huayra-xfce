@@ -44,6 +44,6 @@
       <property name="command" type="string" value="xfce4-mixer"/>
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
-    <property name="plugin-7" type="string" value="whiskermenu"/>
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
   </property>
 </channel>
