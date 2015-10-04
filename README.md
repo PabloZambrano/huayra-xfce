@@ -75,4 +75,4 @@ Un ls -l en ese directorio debe dar algo como esto:
 
 Este archivo se encuentra en:
 
-/huayra-xfce-3-build/config/includes.chroot/etc/sudoers.d/
+/huayra-xfce/config/includes.chroot/etc/sudoers.d/
