@@ -12,6 +12,7 @@ gstreamer0.10-plugins
 iceweasel
 iceweasel-l10n-es-ar
 lsb-release
+python-qt4
 synaptic
 tumbler
 xfce4 
