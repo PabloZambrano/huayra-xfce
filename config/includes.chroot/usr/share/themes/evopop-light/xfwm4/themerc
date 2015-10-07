@@ -4,10 +4,10 @@
 
 # This theme can be used with other light themes (ex. Numix Frost Light, Adwaita, etc.)
 
-active_text_color=active_text_color_2
+active_text_color=#686868
 active_text_shadow_color=active_hilight_2
-inactive_text_color=inactive_text_color_2
-inactive_text_shadow_color=inactive_hilight_2
+inactive_text_color=#bbbbbb
+inactive_text_shadow_color=#ececec
 button_offset=8
 button_spacing=8
 show_app_icon=false
