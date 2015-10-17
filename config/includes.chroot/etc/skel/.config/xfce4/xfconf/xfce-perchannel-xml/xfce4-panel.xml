@@ -10,7 +10,7 @@
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="30"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="1"/>
+        <value type="int" value="7"/>
         <value type="int" value="3"/>
         <value type="int" value="15"/>
         <value type="int" value="4"/>
@@ -22,7 +22,23 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-2" type="string" value="actions"/>
+    <property name="plugin-2" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="invert-orientation" type="bool" value="false"/>
+      <property name="items" type="array">
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
     <property name="plugin-3" type="string" value="tasklist"/>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -33,9 +49,11 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
         <value type="string" value="vlc"/>
+        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="nw"/>
         <value type="string" value="thunar"/>
         <value type="string" value="miniaplicación gestor de la red"/>
+        <value type="string" value="theftdeterrent"/>
       </property>
     </property>
     <property name="plugin-17" type="string" value="mixer">
@@ -44,11 +62,6 @@
       <property name="command" type="string" value="xfce4-mixer"/>
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
-    <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="button-icon" type="string" value="start-here"/>
-      <property name="button-title" type="string" value="Aplicaciones"/>
-      <property name="show-generic-names" type="bool" value="true"/>
-      <property name="show-tooltips" type="bool" value="true"/>
-    </property>
+    <property name="plugin-7" type="string" value="whiskermenu"/>
   </property>
 </channel>
