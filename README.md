@@ -1,9 +1,6 @@
 # huayra-xfce
 Live cd para Huayra Xfce
-
-Huayra GNU/Linux - Instalador en LiveCD
-=======================================
-
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 * Para construir las imágenes de los instaladores y/o live-cd
   es necesario tener instalado los siguientes paquetes:
 
