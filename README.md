@@ -67,12 +67,3 @@ En caso de ser root no hace falta usar sudo.
 
 ---------------------------------------------------------
 
-Se deben cambiar los permisos del archivo "huayra" antes de comenzar el build. 
-El propietario y grupo debe ser "root" con acceso de lectura y sin permiso para "otros". 
-Un ls -l en ese directorio debe dar algo como esto:
-
--r--r----- 1 root root 20 feb 24  2015 huayra
-
-Este archivo se encuentra en:
-
-/huayra-xfce/config/includes.chroot/etc/sudoers.d/
